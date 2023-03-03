@@ -6,7 +6,7 @@
 # Input: OLS model run via lm.mids that has been 'pooled'    #
 ##############################################################
 
-library(huxtable); library(tidyverse); library(mice)
+library(flextable); library(tidyverse); library(mice)
 
 mice_regression_table<-function(pooled_MICE_object){
   m<-pooled_MICE_object$m
