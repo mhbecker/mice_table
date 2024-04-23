@@ -1,7 +1,7 @@
 ##############################################################
 # MICE Regression Output Table Function                      #
 # First Written Date: 3/2/23                                 #
-# Last Edited: 3/2/23                                        #
+# Last Edited: 4/23/24                                       #
 # Author: Michael Becker                                     #
 # Input: OLS model run via lm.mids that has been 'pooled'    #
 ##############################################################
