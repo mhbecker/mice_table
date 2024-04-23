@@ -59,8 +59,11 @@ mice_regression_table<-function(pooled_MICE_object){
     theme_vanilla()%>%
     add_footer_lines(c(paste("N: ",
                              attributes$N,
-                             "; Mean R-Squared: ",
+                             "; Pooled R-Squared: ",
                              round(attributes$R2,
+                                   3),
+                             "; Pooled Adjusted R-Squared: ",
+                             round(attributes$`Adj. R2`,
                                    3),
                              "; p < 0.05 *; p < 0.01 **"),
                        paste("Model estimated with m =",
